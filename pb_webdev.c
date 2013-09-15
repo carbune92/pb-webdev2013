@@ -21,8 +21,8 @@ ret* modify_x(param x, ...) {
 	va_list arg;
 	fct_adr f;
 	ret* res;
-	int dim = 0;
-	int i = 0;
+	size_t dim = 0;
+	size_t i = 0;
 
 	va_start(arg, x);
 	while((f = va_arg(arg, fct_adr)) != NULL) {	
