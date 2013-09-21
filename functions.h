@@ -1,5 +1,5 @@
 #ifndef FUNCTIONS_H
-#define FUNTIONS_H
+#define FUNCTIONS_H
 
 typedef int param;
 typedef int ret;
